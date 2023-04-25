@@ -1,0 +1,4 @@
+variable "string_name" {
+default = "hello world"
+
+}
