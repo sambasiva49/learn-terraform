@@ -11,3 +11,16 @@ output "string_name" {
 output "string_name1" {
   value = "string_name1 = ${var.string_name}"
 }
+
+variable "sample" {
+  default = [
+  100,
+
+
+    true,
+    "shiva"
+  ]
+}
+output "sample" {
+  value = var.sample[1]
+}
