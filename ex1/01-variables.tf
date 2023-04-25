@@ -12,13 +12,12 @@ output "string_name1" {
   value = "string_name1 = ${var.string_name}"
 }
 
-variable "sample" {
+variable "sample_list" {
   default = [
   100,
     true,
-    "shiva"
-  ]
+    "shiva"]
 }
 output "sample" {
-  value = var.sample[1]
+  value = var.sample_list[1]
 }
