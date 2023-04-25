@@ -1,3 +1,11 @@
-output "sample_list" {
-  value = var.sample_list[0]
+
+
+variable "sample_dict" {
+        default = {
+        number = 100
+        string = "samba"
+}
+}
+ output "samplet" {
+        value = var.sample_dict["number"]
 }
