@@ -15,8 +15,6 @@ output "string_name1" {
 variable "sample" {
   default = [
   100,
-
-
     true,
     "shiva"
   ]
