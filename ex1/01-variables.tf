@@ -15,6 +15,7 @@ output "string_name1" {
 variable "sample_list" {
   default = [
   100,
+    "samba",
     true,
     "shiva"]
 }
