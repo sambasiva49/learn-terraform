@@ -20,5 +20,5 @@ variable "sample_list" {
     "shiva"]
 }
 output "sample_list" {
-  value = var.sample_list[1]
+  value = var.sample_list[0]
 }
