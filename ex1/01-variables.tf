@@ -19,3 +19,5 @@ variable "sample_list" {
     true,
     "shiva"]
 }
+
+variable "env" {}
