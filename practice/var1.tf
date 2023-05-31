@@ -5,6 +5,9 @@ variable "sample_sting"{
 output "sample_sting" {
   value = var.sample_sting
 }
+output "sample_sting1" {
+  value = var.samba
+}
 
 
 output "samba" {
