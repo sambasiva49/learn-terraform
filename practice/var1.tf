@@ -27,5 +27,5 @@ variable "samp_dic" {
 
 }
 output "samp_dic" {
-  value = var.samp_dic["numbwer1"]
+  value = var.samp_dic["number1"]
 }
