@@ -19,10 +19,13 @@ output "samba" {
 }
 
 variable "samp_dic" {
-  number1=1000
-  string ="samba"
-}
+  default = {
+    number1 = 1000
 
+    string = "samba"
+  }
+
+}
 output "samp_dic" {
   value = var.samp_dic["numbwer1"]
 }
