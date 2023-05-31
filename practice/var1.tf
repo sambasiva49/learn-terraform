@@ -17,3 +17,12 @@ output "sample_sting1" {
 output "samba" {
   value = "value of sample sring=${var.sample_sting}"
 }
+
+variable "samp_dic" {
+  number1=1000
+  string ="samba"
+}
+
+output "samb" {
+  value = var.samp_dic["numbwer1"]
+}
