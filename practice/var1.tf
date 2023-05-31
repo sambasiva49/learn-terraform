@@ -23,6 +23,6 @@ variable "samp_dic" {
   string ="samba"
 }
 
-output "samb" {
+output "samp_dic" {
   value = var.samp_dic["numbwer1"]
 }
