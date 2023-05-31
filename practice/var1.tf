@@ -2,6 +2,8 @@ variable "sample_sting"{
   default = "hello world"
 }
 
+variable "samba" {}
+
 output "sample_sting" {
   value = var.sample_sting
 }
