@@ -2,7 +2,9 @@ variable "sample_sting"{
   default = "hello world"
 }
 
-variable "samba" {}
+variable "samba" {
+  default = "i am boss"
+}
 
 output "sample_sting" {
   value = var.sample_sting
