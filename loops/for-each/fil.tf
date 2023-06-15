@@ -4,6 +4,7 @@ variable "items" {
   default = {
     pen = "blue"
     book ="white"
+    samba = "pennis"
   }
 }
 
