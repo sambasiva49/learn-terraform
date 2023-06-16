@@ -8,6 +8,7 @@ resource "null_resource" "pens" {
  provisioner "loc_exc" {
   command = "echo sambasiva pens${var.pens[count.index]}"
 }
+
 variable "pens" {
   default = [  "red", "black", "blue"]
 }

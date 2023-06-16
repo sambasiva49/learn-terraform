@@ -1,0 +1,4 @@
+if you want to destroy terraform you can use this command
+terraform destroy -auto-approve
+
+s3 is the storage and my s3 bucket name is terraform-samba72
